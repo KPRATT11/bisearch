@@ -107,4 +107,7 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+# Settings
+.settings.json
+
 # End of https://www.gitignore.io/api/python
