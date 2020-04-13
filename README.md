@@ -1,7 +1,8 @@
 # Binary Search
 
 This module allows the function of binary searching in strings, lists or tuples
-
+<p>&nbsp;</p> 
+<p>&nbsp;</p> 
 
 
 ## Installation
@@ -10,6 +11,7 @@ Run the following to install:
 ```python
 pip install bisearch
 ```
+<p>&nbsp;</p> 
 
 
 
@@ -23,11 +25,12 @@ bisearch.exist(target,field)
 # Check where target is located within search range
 bisearch.location(target,field)
 ```
+<p>&nbsp;</p> 
+
 
 
 ## Types of target inputs 
 *Target input refers to the first input argument when the function is called*  
-<p>&nbsp;</p>  
 <p>&nbsp;</p>  
 
 **Int** - accepts int value --- *Note - int inputs are not compatible with string fields*
@@ -40,13 +43,13 @@ bisearch.location(target,field)
 
 
 **Word string** - accepts string of single word --- *Note - word strings are only compatible with multiple word strings*
-
+<p>&nbsp;</p> 
+<p>&nbsp;</p> 
 
 
 ## Types of field inputs
 *Field input refers to the second argument when the function is called*
-<p>&nbsp;</p>  
-<p>&nbsp;</p>  
+<p>&nbsp;</p>   
 
 **2D Array** - accepts any length 2D array
 
@@ -58,7 +61,8 @@ bisearch.location(target,field)
 
 
 **Multiple Word Strings** - accepts strings that are seperated by *one* white space --- *Note - string is split into list of words*
-
+<p>&nbsp;</p> 
+<p>&nbsp;</p> 
 
 
 
