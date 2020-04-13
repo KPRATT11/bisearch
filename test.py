@@ -1,4 +1,4 @@
 import bisearch
 
-string = [1]
-print(bisearch.location(1, string))
+array = (10,23,24,55,62,11,12,9)
+print(bisearch.exist(9, array))

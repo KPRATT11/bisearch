@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup (
     name='bisearch',
-    version = '0.0.1',
+    version = '0.1.2',
     descriptions='Implements Binary Search Functions',
     py_modules=["bisearch"],
     package_dir={'': 'src'},

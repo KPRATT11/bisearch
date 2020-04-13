@@ -4,12 +4,21 @@ def exist(target,field):
     if isinstance(field, str):
         if " " in field:
             field = field.split(' ')
+            field.sort()
         else:
             field = list(field)
+            field.sort()
+
+    elif isinstance(field, tuple):
+        field = list(field)
+        field.sort()
+
+    elif isinstance(field, list):
+        field.sort()
+
     else:
         raise TypeError('Must contain a list or string')
 
-    field.sort()
     upper_range = len(field)
     lower_range = 0
 
@@ -48,11 +57,17 @@ def location(target,field):
     if isinstance(field, str):
         if " " in field:
             field = field.split(' ')
+            field.sort()
         else:
             field = list(field)
+            field.sort()
+
+    elif isinstance(field, tuple):
+        field = list(field)
+        field.sort()
 
     elif isinstance(field, list):
-        pass
+        field.sort()
 
     else:
         raise TypeError('Must contain a list or string')
