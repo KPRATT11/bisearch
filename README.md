@@ -27,8 +27,9 @@ bisearch.location(target,field)
 
 ## Types of target inputs 
 *Target input refers to the first input argument when the function is called*  
-|
-|
+<p>&nbsp;</p>  
+<p>&nbsp;</p>  
+
 **Int** - accepts int value --- *Note - int inputs are not compatible with string fields*
 
 
@@ -44,8 +45,9 @@ bisearch.location(target,field)
 
 ## Types of field inputs
 *Field input refers to the second argument when the function is called*
-|
-|
+<p>&nbsp;</p>  
+<p>&nbsp;</p>  
+
 **2D Array** - accepts any length 2D array
 
 
